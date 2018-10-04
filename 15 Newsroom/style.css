@@ -1,0 +1,192 @@
+.container {
+	max-width:1140px;
+}
+
+/* header */
+
+header {
+	background-color:black;
+	padding:15px 0;
+}
+
+#logo {
+	width:215px;
+}
+
+.col-md-3 {
+	padding:0;
+}
+
+form {
+	float:right;
+	margin-top:5px;
+}
+
+.form-control {
+	background:none;
+	border:none;
+	border-bottom:1px solid white;
+	border-radius:0;
+	padding-right:70px;
+	padding-left:0;
+	font-size:13px;
+	margin-right:5px;
+	padding-bottom:0px;
+}
+
+.form-control:focus {
+	box-shadow:none;
+}
+
+.btn {
+	background:none;
+	border:none;
+	border-bottom:1px solid #1A77FF;
+	border-radius:0;
+	color:white;
+	font-size:13px;
+	padding-bottom:4px;
+	margin-top:7px;
+	transition:color 0.3s
+}
+
+.btn:hover {
+	background:none;
+	color:#1A77FF;
+	border-color:#1A77FF;
+}
+
+/* nav */
+
+nav {
+	background-color:#152230;
+}
+
+nav .container {
+	padding:0;
+}
+
+.nav {
+	background:none;
+}
+
+.nav li {
+	display:inline-block;
+}
+
+.nav li a {
+	color:white;
+	padding:10px 20px;
+}
+
+.nav li.active a {
+	background-color:#1A77FF;
+}
+
+.nav li a:hover {
+	background-color:#1A77FF;
+}
+
+/* main */
+
+.main {
+	background-image:url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg);
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	color:white;
+}
+
+.col-md-5 {
+	padding:40px;
+}
+
+.date {
+	font-size:15px;
+}
+
+.main h1 {
+	font-size:60px;
+	text-decoration:underline;
+	text-underline-position: under;
+	margin-bottom:30px;
+	text-decoration-color:#1A77FF;
+}
+
+.main p {
+	font-size:19px;
+}
+
+/* supporting */
+
+.supporting {
+	background-color:#F2F2F2;
+}
+
+.col-md-8 {
+	background-color:white;
+	margin:50px 0;
+	padding:40px 40px 60px 40px;
+}
+
+.col-md-4 {
+	background-color:#152230;
+	margin:50px 0;
+	color:white;
+	padding:40px 40px 60px 40px;
+}
+
+.supporting ul {
+	list-style:none;
+	padding:0;
+}
+
+.supporting h3 {
+	font-size:24px;
+	margin:0 0 40px;
+}
+
+.supporting h4 {
+	font-size:18;
+}
+
+span {
+	border-bottom:3px solid #1A77FF;
+}
+
+.col-md-12 {
+	padding:0;
+	margin-bottom:40px;
+}
+
+/* footer */
+
+footer {
+	background-color:black;
+	color:white;
+	padding:45px 0;
+	font-size:13px;
+}
+
+footer ul {
+	padding:0;
+}
+
+footer li {
+	display:inline-block;
+	margin-right:40px;
+}
+
+footer li a {
+	color:white;
+	transition:color 0.3s;
+}
+
+footer li a:hover {
+	text-decoration:none;
+	color:#1A77FF;
+}
+
+footer p {
+	float:right;
+}

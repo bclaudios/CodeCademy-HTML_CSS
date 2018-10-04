@@ -1,0 +1,152 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+/* header */
+
+.header	{
+	background-image:url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:white;
+	height:800px;
+}
+
+.header h1 {
+	font-size:120px;
+	text-transform:uppercase;
+	margin-top:200px;
+	font-weight:600;
+	line-height:100px;
+}
+
+.header p {
+	text-transform:uppercase;
+	font-weight:500;
+	letter-spacing:8px;
+	margin-top:80px;
+	font-size:16px;
+}
+
+.btn {
+	border-radius:0;
+	background-color:black;
+	color:white;
+	border:none;
+	padding: 8px 40px;
+	margin-top:20px;
+	font-size:17px;
+	font-weight:200;
+	transition:background .5s;
+}
+
+.btn:hover	{
+	background-color:#117BFF;
+	color:white;
+}
+
+/* nav */
+
+.nav {
+	background-color:black;
+}
+
+.nav ul {
+	margin:0;
+	padding:0;
+}
+
+.nav ul li {
+	display:inline-block;
+	padding:28px 10px;
+	transition:background .5s;
+	margin-left:0;
+}
+
+.nav li:hover	{
+	background-color:#117BFF;
+}
+
+.nav li a {
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+}
+
+/* main */
+
+.main {
+	color:black;
+	margin:50px 0;
+}
+
+.main img {
+	height:128px;
+	float:left;
+	margin:65px 70px 0 0 ;
+}
+
+.main h2 {
+	text-transform:capitalize;
+	font-size:25px;
+	letter-spacing:-1px;
+	font-weight:bold;
+}
+
+.main p {
+	font-size:15px;
+	width:95%;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	background-image:url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:right;
+	color:white;
+	height:600px;
+	padding:200px 232px;
+	margin:0;
+}
+
+.jumbotron h2 {
+	font-size:25px;
+	letter-spacing:0px;
+	font-weight:bold;
+}
+
+.jumbotron p {
+	font-size:16px;
+	letter-spacing:0px;
+	margin-top:15px;
+}
+
+/* footer */
+
+.footer {
+	background-color:black;
+	margin:0;
+	color:white;
+	padding:0;
+}
+
+.footer p {
+	margin:30px 0;
+}

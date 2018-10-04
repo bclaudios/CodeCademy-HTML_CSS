@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+	padding-top:20px;
+}
+
+.header .row {
+	padding:10px 20px;
+}
+
+.header h1 {
+	font-size:20px;
+	padding-top:20px;
+}
+
+.header ul {
+	float:right;
+	font-size:14px;
+	margin-top:2px;
+}
+
+.header li {
+	padding:8px 15px;
+}
+
+.header li a {
+	text-decoration:none;
+	color:black;
+}
+
+/* jumbotron */
+
+.jumbotron {
+	background-color:white;
+	height:470px;
+	padding:140px 0;
+}
+
+.jumbotron h2 {
+	font-size:50px;
+}
+
+span {
+	color:#FFC200;
+}
+/* banner */
+
+.banner {
+	background-color:#333333;
+	color:white;
+	text-align:center;
+	font-size:14px;
+	padding:40px 0 13px 0;
+}
+
+.banner h1 {
+	font-size:36px;
+}
+
+.banner p {
+	margin-top:10px;
+}
+
+/* cards */
+
+.cards {
+	padding:100px 0;
+	text-align:center;
+	background-color:#FFC200;
+}
+
+.cards h2 {
+	font-size:30px;
+}
+
+.cards .row {
+	padding-top:50px;
+}
+
+.cards img {
+	margin-bottom:25px;
+}
+
+/* footer */
+
+.footer {
+	background-color:black;
+	color:white;
+	font-size:12px;
+	padding:30px 0;
+}
+
+.footer h3 {
+	font-size:20px;
+}
+
+.footer ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.footer p {
+	margin:0;
+}
+
+.footer img {
+	height:20px;
+	margin:7px;
+}
+
+/* media queries */
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}

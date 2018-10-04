@@ -1,0 +1,92 @@
+.container {
+  max-width: 928px;
+}
+
+h1 {
+	font-size:64px;
+}
+
+p {
+	font-size:26px;
+}
+/* main */
+
+.main {
+	background-image:url(https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:550px;
+}
+
+.main h1 {
+	margin:75px 0 20px 0;
+}
+
+.btn {
+	background-color:rgba(238,68,95,0.9);
+	color:white;
+    font-size: 18px;
+	border:none;
+    padding: 5px 30px;
+    border-radius: 4px;
+    margin-top:30px;
+}
+
+/* section */
+
+.row {
+	border-bottom:1px solid #DBDBDB;
+	padding: 50px 0;
+}
+
+.section p {
+	margin-top:20px;
+}
+
+#col2 {
+	margin-left:180px;
+}
+
+/* store */
+
+.store {
+	text-align:center;
+	padding:60px 0 105px 0;
+	font-size:40px;
+}
+
+.store h2 {
+	font-size:32px;
+	color:black;
+}
+
+.store img {
+	margin-top:30px;
+	height:55px;
+
+}
+
+/*footer */
+
+.footer {
+	background-color:#F3F3F3;
+	border-top:1px solid #DBDBDB;
+}
+
+.footer .row {
+	padding:0;
+}
+
+
+.footer h3 {
+	margin-left:115px;
+}
+
+.footer ul {
+	list-style:none;
+	margin-left:75px;
+}
+
+.footer a {
+	color:grey;
+}

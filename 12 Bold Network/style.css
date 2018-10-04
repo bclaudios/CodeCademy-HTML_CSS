@@ -1,0 +1,163 @@
+html, body {
+	font-family: "Oxygen", sans-serif;
+	margin:0;
+	padding:0;
+	background-image:url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+	background-size:141px 142px;
+}
+
+.container {
+	max-width:970px;
+}
+
+/* header */
+
+.jumbotron {
+	background-color:black;
+	margin:0;
+}
+
+.jumbotron img {
+	height:34px;
+}
+
+.jumbotron ul {
+	margin-right:30px;
+}
+
+.jumbotron li {
+	display:inline-block;
+}
+
+.btn {
+	border-radius:2px;
+	background:none;
+	color:#0393F0;
+	border:1px solid #0393F0;
+	padding:8px 20px;
+	transition:color 0.5s;
+}
+
+.btn:hover {
+	background-color:#0393FF;
+	border-color:#0393FF;
+	color:white;
+}
+
+#login {
+	border:1px solid black;
+	color:white;
+}
+
+#login:hover {
+	background:none;
+	color:#0393FF;
+}
+
+/* main */
+
+.main {
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:50px 0 110px;
+}
+
+.main h1 {
+	font-size:63px;
+	margin:30px 0 40px;
+}
+
+/* main form */
+
+.form-inline {
+	margin-top:80px;
+}
+
+.form-control {
+	background:none;
+	border:none;
+	border-bottom:1px solid white;
+	border-radius:0px;
+	font-size:20px;
+}
+
+.main .form-control {
+	width:400px;
+}
+
+.main .form-control:focus {
+	box-shadow:none;
+	border-color:#0393FF
+;}
+
+#search {
+	margin-left:25px;
+}
+
+/* supporting */
+
+.supporting {
+	text-align:center;
+	color:white;
+	padding:70px;
+}
+
+.supporting h2 {
+	color:#0393FF;
+	font-size:35px;
+}
+
+.supporting p {
+	font-size:18px;
+	margin-bottom:30px;
+}
+
+.thumbnail {
+	border:none;
+	background:none;
+	margin:20px 0 0;
+	padding:0;
+}
+
+/* feature */
+
+.feature {
+	background-image:url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:400px;
+	color:white;
+	text-align:center;
+	padding-top:150px;
+}
+
+.feature h3  {
+	color:#0393FF;
+	font-size:35px;
+}
+
+.feature p {
+	font-size:18px;
+}
+
+/* footer */
+
+.footer {
+	background-color:black;
+	padding:70px 0 50px;
+}
+
+.footer ul {
+	list-style:none;
+	padding:0;
+}
+
+.footer h4 {
+	color:white;
+}
+
+.footer a {
+	color:#0393FF;
+}
